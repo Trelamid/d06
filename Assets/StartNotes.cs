@@ -19,6 +19,8 @@ public class StartNotes : MonoBehaviour
         _text.text = "Не попадайтесь на свет, иначе вас заметят!";
         yield return new WaitForSeconds(10);
         _text.text = "Прячтесь в дыму, чтобы скрыться от камер";
+        yield return new WaitForSeconds(10);
+        _text.text = "";
 
     }
 
